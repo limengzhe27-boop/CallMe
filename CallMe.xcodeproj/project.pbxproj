@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* CallMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* CallMeApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* CallManager.swift */; };
+		A10000000000000000000004 /* CallMeRingtone.wav in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* CallMeRingtone.wav */; };
+		A10000000000000000000005 /* CallExperimentRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* CallExperimentRules.swift */; };
+		A10000000000000000000006 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* CameraController.swift */; };
+		A10000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* Assets.xcassets */; };
+		A10000000000000000000008 /* VideoCallMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* VideoCallMediaView.swift */; };
+		A10000000000000000000009 /* ChatClassic.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* ChatClassic.wav */; };
+		A1000000000000000000000A /* ChatCrystal.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* ChatCrystal.wav */; };
+		A1000000000000000000000B /* ChatMinimal.wav in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* ChatMinimal.wav */; };
+		A1000000000000000000000C /* WeChatClassic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* WeChatClassic.mp3 */; };
+		A1000000000000000000000D /* ReferenceCallViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* ReferenceCallViews.swift */; };
+		B10000000000000000000001 /* CallExperimentRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* CallExperimentRulesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* CallMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMeApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* CallMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000005 /* CallMeRingtone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CallMeRingtone.wav; sourceTree = "<group>"; };
+		A20000000000000000000006 /* CallExperimentRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallExperimentRules.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000009 /* VideoCallMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallMediaView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* ChatClassic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ChatClassic.wav; sourceTree = "<group>"; };
+		A2000000000000000000000B /* ChatCrystal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ChatCrystal.wav; sourceTree = "<group>"; };
+		A2000000000000000000000C /* ChatMinimal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ChatMinimal.wav; sourceTree = "<group>"; };
+		A2000000000000000000000D /* WeChatClassic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WeChatClassic.mp3; sourceTree = "<group>"; };
+		A2000000000000000000000E /* ReferenceCallViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceCallViews.swift; sourceTree = "<group>"; };
+		B20000000000000000000001 /* CallExperimentRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallExperimentRulesTests.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 /* CallMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* CallMe */,
+				B40000000000000000000001 /* CallMeTests */,
+				A40000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* CallMe */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* CallMeApp.swift */,
+				A20000000000000000000002 /* ContentView.swift */,
+				A20000000000000000000003 /* CallManager.swift */,
+				A20000000000000000000005 /* CallMeRingtone.wav */,
+				A20000000000000000000006 /* CallExperimentRules.swift */,
+				A20000000000000000000007 /* CameraController.swift */,
+				A20000000000000000000008 /* Assets.xcassets */,
+				A20000000000000000000009 /* VideoCallMediaView.swift */,
+				A2000000000000000000000A /* ChatClassic.wav */,
+				A2000000000000000000000B /* ChatCrystal.wav */,
+				A2000000000000000000000C /* ChatMinimal.wav */,
+				A2000000000000000000000D /* WeChatClassic.mp3 */,
+				A2000000000000000000000E /* ReferenceCallViews.swift */,
+			);
+			path = CallMe;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000004 /* CallMe.app */,
+				B20000000000000000000002 /* CallMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B40000000000000000000001 /* CallMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000001 /* CallExperimentRulesTests.swift */,
+			);
+			path = CallMeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* CallMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000000000000000000001 /* Build configuration list for PBXNativeTarget "CallMe" */;
+			buildPhases = (
+				A70000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A80000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallMe;
+			productName = CallMe;
+			productReference = A20000000000000000000004 /* CallMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50000000000000000000001 /* CallMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60000000000000000000001 /* Build configuration list for PBXNativeTarget "CallMeTests" */;
+			buildPhases = (
+				B70000000000000000000001 /* Sources */,
+				B30000000000000000000001 /* Frameworks */,
+				B80000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = CallMeTests;
+			productName = CallMeTests;
+			productReference = B20000000000000000000002 /* CallMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					B50000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = A50000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A60000000000000000000002 /* Build configuration list for PBXProject "CallMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* CallMe */,
+				B50000000000000000000001 /* CallMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXContainerItemProxy section */
+		C00000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000001;
+			remoteInfo = CallMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		B90000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50000000000000000000001 /* CallMe */;
+			targetProxy = C00000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000004 /* CallMeRingtone.wav in Resources */,
+				A10000000000000000000007 /* Assets.xcassets in Resources */,
+				A10000000000000000000009 /* ChatClassic.wav in Resources */,
+				A1000000000000000000000A /* ChatCrystal.wav in Resources */,
+				A1000000000000000000000B /* ChatMinimal.wav in Resources */,
+				A1000000000000000000000C /* WeChatClassic.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* CallMeApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* CallManager.swift in Sources */,
+				A10000000000000000000005 /* CallExperimentRules.swift in Sources */,
+				A10000000000000000000006 /* CameraController.swift in Sources */,
+				A10000000000000000000008 /* VideoCallMediaView.swift in Sources */,
+				A1000000000000000000000D /* ReferenceCallViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* CallExperimentRulesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 30;
+				DEVELOPMENT_TEAM = KFCXZD2LXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallMe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = local.callme.mvp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 30;
+				DEVELOPMENT_TEAM = KFCXZD2LXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallMe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = local.callme.mvp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BA0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFCXZD2LXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.callme.mvp.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallMe";
+			};
+			name = Debug;
+		};
+		BA0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFCXZD2LXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.callme.mvp.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000000000000000000001 /* Build configuration list for PBXNativeTarget "CallMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000003 /* Debug */,
+				AA0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000000000000000000002 /* Build configuration list for PBXProject "CallMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000001 /* Debug */,
+				AA0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60000000000000000000001 /* Build configuration list for PBXNativeTarget "CallMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0000000000000000000001 /* Debug */,
+				BA0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000000000000000000001 /* Project object */;
+}

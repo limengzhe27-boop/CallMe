@@ -1,0 +1,24 @@
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Android / Gradle
+android/.gradle/
+android/.idea/
+android/local.properties
+android/sdk/
+android/**/build/
+*.iml
+
+# Local tooling and diagnostics
+.codex/
+.codex-*/
+*.log
+*.hprof
+local.properties
