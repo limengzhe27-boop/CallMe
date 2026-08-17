@@ -48,6 +48,11 @@ The workspace contains two independent apps:
 These are iPhone captures using a local example template. They show CallMe's on-device experience;
 they do not represent a real carrier or WeChat call.
 
+<p align="center">
+  <img src="docs/assets/screenshots/ios-home.png" alt="CallMe home screen with caller, quick templates, call style, timing, and the schedule button" width="280"><br>
+  <sub>Home overview: choose a caller, call style, and delay, then select “Schedule Call.”</sub>
+</p>
+
 <table>
   <tr>
     <td align="center" width="33%"><img src="docs/assets/screenshots/ios-scheduled-phone.png" alt="Scheduled phone-call countdown" width="220"><br><sub>After scheduling: countdown and lock-screen prompt</sub></td>

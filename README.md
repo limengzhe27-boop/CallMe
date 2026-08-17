@@ -43,6 +43,11 @@ CallMe 是一个供个人使用的本地来电安排工具。遇到不方便直�
 下面是 iPhone 真机上使用本地示例模板的截图。它们展示的是 CallMe 的本地体验，不代表
 真实运营商或微信通话。
 
+<p align="center">
+  <img src="docs/assets/screenshots/ios-home.png" alt="CallMe 首页：联系人、快速模板、来电方式、来电时间与安排来电按钮" width="280"><br>
+  <sub>首页总览：选择联系人、来电方式和时间后，点击“安排来电”即可开始。</sub>
+</p>
+
 <table>
   <tr>
     <td align="center" width="33%"><img src="docs/assets/screenshots/ios-scheduled-phone.png" alt="已安排手机来电的倒计时页面" width="220"><br><sub>安排后：倒计时与锁屏提示</sub></td>
