@@ -45,15 +45,24 @@ The workspace contains two independent apps:
 
 ## Screenshots
 
-The README only uses authentic CallMe captures with real names, avatars, chat lists, and unrelated
-apps removed. The intended screenshot set is:
+These are iPhone captures using a local example template. They show CallMe's on-device experience;
+they do not represent a real carrier or WeChat call.
 
-1. the home screen with caller, call style, and timing;
-2. the incoming-call presentation on the lock screen or home screen;
-3. the connected phone, WeChat Voice, or WeChat Video surface.
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-scheduled-phone.png" alt="Scheduled phone-call countdown" width="220"><br><sub>After scheduling: countdown and lock-screen prompt</sub></td>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-incoming-phone.png" alt="Incoming phone-call screen" width="220"><br><sub>Phone call: answer or decline</sub></td>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-connected-phone.png" alt="Connected phone-call controls" width="220"><br><sub>Connected: audio, mute, keypad, and more controls</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-incoming-wechat-voice.png" alt="WeChat-style voice incoming screen" width="220"><br><sub>WeChat-style voice: local incoming screen</sub></td>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-connected-wechat-voice.png" alt="WeChat-style voice connected screen" width="220"><br><sub>WeChat-style voice: connected controls</sub></td>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-ringtone-picker.png" alt="Built-in ringtone preview and selection screen" width="220"><br><sub>Sound settings: preview and choose the classic WeChat tone</sub></td>
+  </tr>
+</table>
 
-Use a generic caller such as “Boss” and a fictional number, then store captures under
-`docs/assets/screenshots/`.
+Android phone UI varies with the current default phone app and device manufacturer. Screenshots of
+Android's custom WeChat-style surfaces will be added separately after they are captured on a device.
 
 ## Bundled ringtones
 

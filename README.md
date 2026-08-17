@@ -40,15 +40,24 @@ CallMe 是一个供个人使用的本地来电安排工具。遇到不方便直�
 
 ## 界面截图
 
-README 只使用直接来自 CallMe、且已移除真实姓名、头像、聊天列表和其他 App 信息的截图。
-当前正在补充以下三类真机画面：
+下面是 iPhone 真机上使用本地示例模板的截图。它们展示的是 CallMe 的本地体验，不代表
+真实运营商或微信通话。
 
-1. 首页设置“来电人 / 来电方式 / 来电时间”；
-2. 锁屏或桌面上的来电展示；
-3. 接听后的手机电话、微信语音或微信视频页面。
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-scheduled-phone.png" alt="已安排手机来电的倒计时页面" width="220"><br><sub>安排后：倒计时与锁屏提示</sub></td>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-incoming-phone.png" alt="手机来电接听页面" width="220"><br><sub>手机来电：接听或拒绝</sub></td>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-connected-phone.png" alt="接听后的手机通话控制页面" width="220"><br><sub>接听后：音频、静音、键盘与更多控制</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-incoming-wechat-voice.png" alt="微信语音样式来电页面" width="220"><br><sub>微信语音样式：本地来电页</sub></td>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-connected-wechat-voice.png" alt="微信语音样式接听后页面" width="220"><br><sub>微信语音样式：接听后控制</sub></td>
+    <td align="center" width="33%"><img src="docs/assets/screenshots/ios-ringtone-picker.png" alt="内置来电铃声的试听与选择页面" width="220"><br><sub>声音设置：微信经典铃声可试听与选择</sub></td>
+  </tr>
+</table>
 
-如果你在自己的设备上截图，建议统一使用“老板”等示例姓名和随机号码，再放入
-`docs/assets/screenshots/`。
+Android 的界面会因当前默认电话 App 和厂商系统而变化；Android 自绘微信样式界面的截图
+将在对应真机素材完成后单独补充。
 
 ## 内置铃声
 
