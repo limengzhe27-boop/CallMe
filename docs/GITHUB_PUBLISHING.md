@@ -11,11 +11,11 @@
 
 ### About 描述（中文优先）
 
-> 用原生 CallKit 与 Android Telecom 验证延迟来电、锁屏展示和本地语音/视频来电界面的移动端实验。
+> 在需要自然离开尴尬场合时，提前安排一通本地来电；支持 iPhone、Android 及微信语音/视频样式。
 
 ### About description (English alternative)
 
-> A native mobile experiment for delayed incoming calls, lock-screen presentation, and local voice/video call surfaces using CallKit and Android Telecom.
+> Schedule an on-device incoming call as a natural exit cue, with iPhone, Android, and WeChat-style voice/video surfaces.
 
 ### Topics
 

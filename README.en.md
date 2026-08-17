@@ -2,9 +2,15 @@
 
 [中文](README.md) · [Installation](docs/INSTALLATION.en.md) · [Android notes](android/README.md)
 
-CallMe is a native mobile incoming-call experiment. It explores CallKit on iPhone and Telecom,
-exact alarms, and full-screen call notifications on Android. It is intended for personal device
-testing: it does not connect to WeChat, place real calls, or use a server, account, or cloud sync.
+CallMe is a personal, on-device incoming-call scheduler. When leaving a dinner, conversation,
+meeting, or another awkward situation directly would feel uncomfortable, you can arrange a call
+in advance, answer it when the phone rings, and use that moment to step away naturally. It works
+on your own phone and does not require another person or device.
+
+It is also a native mobile call-experience experiment. iPhone uses CallKit; Android uses Telecom,
+exact alarms, and full-screen call notifications. WeChat-style voice and video calls use local
+custom interfaces. CallMe does not connect to WeChat, place real calls, or use a server, account,
+or cloud sync.
 
 The workspace contains two independent apps:
 
@@ -15,6 +21,50 @@ The workspace contains two independent apps:
 > user's own device for local personal testing. It is not cleared for public redistribution.
 > Keep a repository containing that file **private**, and do not publish APK, IPA, or Release
 > artifacts containing it. See [`docs/audio-sources.md`](docs/audio-sources.md) for the other sounds.
+
+## What you can use it for
+
+- **Create a natural exit cue:** schedule a call before a dinner, gathering, or long conversation,
+  then step away when it arrives.
+- **Make a reminder hard to miss:** use ringing, screen wake, and an incoming-call surface instead
+  of a quiet countdown.
+- **Test platform behavior:** compare foreground, background, and lock-screen behavior across
+  iPhone and Android device families.
+- **Reuse familiar scenarios:** save caller names, avatars, call styles, timing, and answer audio as
+  local templates.
+
+### A 30-second exit example
+
+1. Open CallMe and set the caller to “Boss.”
+2. Choose Phone or WeChat Voice and select a 30-second delay.
+3. Schedule the call, then return home or lock the device.
+4. Answer when it rings, remain on the call surface briefly, and step away naturally.
+
+> CallMe only presents the experience on your device. It does not contact the named person or
+> create a real call or carrier charge.
+
+## Screenshots
+
+The README only uses authentic CallMe captures with real names, avatars, chat lists, and unrelated
+apps removed. The intended screenshot set is:
+
+1. the home screen with caller, call style, and timing;
+2. the incoming-call presentation on the lock screen or home screen;
+3. the connected phone, WeChat Voice, or WeChat Video surface.
+
+Use a generic caller such as “Boss” and a fictional number, then store captures under
+`docs/assets/screenshots/`.
+
+## Bundled ringtones
+
+The classic WeChat ringtone is included and referenced by both apps:
+
+- iOS: `CallMe/WeChatClassic.mp3`
+- Android: `android/app/src/main/res/raw/wechat_classic.mp3`
+
+WeChat Voice and WeChat Video can select it as the built-in default. Other bundled choices include
+digital, crystal, and minimal tones, and both apps support locally imported answer audio. The
+system phone ringtone remains controlled by iOS or Android.
 
 ## Status and current capabilities
 
